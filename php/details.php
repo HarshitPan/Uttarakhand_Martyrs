@@ -23,7 +23,7 @@
             if ($result->num_rows <= 0)
             {
         ?>
-                <h1 style="font-size:20px; color:red;">NO Result Found...</h1>
+                <h1 style="background-color:white; font-size:20px; color:red; position:absolute; top:50%; left:50%;transform: translate(-50%,-50%);">NO Result Found...</h1>
         <?php
             }else{
                 while($row=$result->fetch_assoc())
